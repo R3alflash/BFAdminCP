@@ -5,21 +5,21 @@ return [
         'settings' => [
             'blocks' => [
                 'general' => [
-                    'title' => 'General',
+                    'title' => 'Übersicht',
                     'inputs' => [
                         'email' => 'Email',
-                        'language' => 'Language',
+                        'language' => 'Srache',
                     ],
                 ],
                 'password' => [
-                    'title' => 'Change Password',
+                    'title' => 'Password ändern',
                     'inputs' => [
                         'password' => 'Password',
-                        'password_confirm' => 'Confirm Password',
+                        'password_confirm' => 'Password bestätigen',
                     ],
                     'inputs_help' => [
-                        'password' => 'To change your password please enter it here.',
-                        'password_confirm' => 'Retype your new password to confirm the change.',
+                        'password' => 'Um dein Passwort zu ändern, bitte hier eintragen.',
+                        'password_confirm' => 'Eingabe wiederholen, um das Passwort zu bestätigen.',
                     ],
                 ],
             ],
@@ -28,13 +28,13 @@ return [
     'notifications' => [
         'account' => [
             'email' => [
-                'changed' => 'Email has been updated to :addr!',
+                'changed' => 'E-Mail wurde aktualisiert auf :addr!',
             ],
             'password' => [
-                'changed' => 'Password has been changed!',
+                'changed' => 'Passwort wurde geändert!',
             ],
             'language' => [
-                'changed' => 'Language has been changed to :lang!',
+                'changed' => 'Sprache wurde geändert auf :lang!',
             ],
         ],
     ],
